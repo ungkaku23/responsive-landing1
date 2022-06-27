@@ -41,11 +41,82 @@ body {
 }
 
 .navbar .navbar-nav .nav-link {
-  font-family: var(--font-family);
   font-weight: 700;
   line-height: 1rem;
   letter-spacing: .015em;
   cursor: pointer;
   color: #425054;
   font-size: inherit;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active {
+  color: #ECA42C;
+  /* color: #1378b5; */
+}
+
+footer {
+  background-color: #363e3f;
+  padding: 60px 30px;
+}
+
+footer p {
+  font-size: .813em;
+  color: white;
+}
+
+footer h4 {
+  color: white;
+}
+
+footer img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.home-hero-banner {
+  background-size: cover;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../resources/images/hero-banner1.jpeg);
+  margin-top: 96px;
+  padding: 200px 0px;
+}
+
+.home-banner-header {
+  background: linear-gradient(54deg,#ECA42C 40%,#1378b5 50%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 38pt;
+  line-height: 40pt;
+  word-break: break-word;
+}
+
+.home-banner-item-bg {
+  border-radius: 7px;
+}
+
+.home-banner-desc {
+  color: white;
+  font-size: 20px;
+  margin: 40px 0px;
+}
+
+         
+.primary-btn {
+  background-image: linear-gradient(to right, #ECA42C 0%, #1378b5  51%, #ECA42C  100%);
+  padding: 15px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-decoration: none;
+  font-size: .813em;
+}
+
+.primary-btn:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
 }

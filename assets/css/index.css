@@ -163,9 +163,7 @@ footer img {
 }
 
 .page-title {
-  background: linear-gradient(54deg,#ECA42C 40%,#1378b5 50%);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  color: white;
   font-size: 38pt;
   line-height: 40pt;
   word-break: break-word;
